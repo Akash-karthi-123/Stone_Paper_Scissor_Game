@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <script>
+        function ert(){
+
+        }
+    </script>
+    <title>Game</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <h1 id="choose">Choose your move</h1>
+    <div class="image">
+        <button onclick="incre(1)">
+            <img src="stone.jpg" alt="stone" id="st" >
+        </button>
+        <button onclick="incre(2)">
+            <img src="paper.jpg" alt="paper" id="pap" >
+        </button>
+        <button onclick="incre(3)">
+            <img src="scissor.jpg" alt="scissor" id="sci" >
+        </button>
+        <script src="scrip.js"></script>
+    </div>
+    <br>
+    <div id="comp-move"></div>
+    <div id="score"></div>
+    <br>
+    <div class="control>">
+        <button id="reset" onclick="res()">Reset</button>
+        <button id="next" onclick="document.getElementById('choose').style.display='block'; document.getElementById('comp-move').style.display='none';">Next move</button>
+
+    </div>
+    <div id="score"></div>
+</body>
+</html>
